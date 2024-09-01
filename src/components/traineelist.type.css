@@ -1,0 +1,36 @@
+/* traineelist.type.css */
+
+/* Style for the entire table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style for table headers */
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Style for table cells */
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Style for action buttons */
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
